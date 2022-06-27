@@ -9,7 +9,6 @@ function SearchPartidas() {
   async function fetchPartidas() {
     const partidasLista = await buscarPartidas(nome);
     setPartidas(partidasLista);
-    console.log(partidas);
   }
 
   return (
